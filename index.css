@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+}
+.background_img
+{
+    background-image: url("https://uploads-ssl.webflow.com/600c8c2ee034d32f97280917/608804fc910c1737eaad9063_Home-draft%20%E2%80%93%201.jpg");
+    background-size: size;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+.navbar {
+  /* border: 2px solid red; */
+  width: 100vw;
+  height: 14vh;
+  background-color: rgb(27, 76, 137);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+}
+a {
+  font-size: 1.4vw;
+  padding: 1vh 1.5vw;
+  text-decoration: none !important;
+  color: white !important; 
+  font-family: Barlow, "sans-serif";
+  font-weight: 400;
+}
+.navbar_img {
+  width: 15vw;
+}
+.navbar_elements_button {
+  padding: 1.5vh 1vw;
+  font-size: medium;
+  font-family: "Barlow";
+  border-radius: 28px;
+  border: none;
+  background: #fc6a04;
+  color: white;
+}
+.background_content_p
+{
+  font-family: barlow;
+  font-weight: 400;
+  font-size: 4vw;
+  color: white;
+  width: 64vw;
+  text-align: center;
+  margin: auto;
+}
+.background_content_div
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 12vh;
+}
+.background_content_div_part1
+{
+  display: flex;
+}
+.background_content_div_part2
+{
+  display: flex;
+  margin-left: 4vw;
+}
+.div_part1_img
+{
+  width: 12vw;
+}
+.div_part2_img
+{
+  width: 12vw;
+}
+.div_part1_desc
+{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-evenly;
+  height: 35vh;
+}
+.div_part2_desc
+{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-evenly;
+  margin-left: 1vw;
+  height: 35vh;
+}
+.div_part1_p1
+{
+  font-family: 'Barlow';
+  font-size: larger;
+  font-weight: 500;
+  color: #fc6a04;
+}
+.div_part1_p2
+{
+  font-size: 2.4vw;
+  width: 26vw;
+  font-family: 'Barlow';
+  color: white;
+}
+.div_part1_button
+{
+  padding: 1vh 1.5vw;
+  border-radius: 25px;
+  border: none;
+  background-color: #fc6a04;
+}
+.div_part2_p
+{
+  font-family: 'Barlow';
+  color: #fc6a04;
+  font-size: larger;
+  font-weight: 500;
+  width: 13vw;
+}
+.div_part2_p2
+{
+  font-size: 2.4vw;
+  width: 26vw;
+  color: white;
+  font-family: 'Barlow';
+}
+.second_background
+{
+  background-image: linear-gradient(180deg,#092e55 30%,#003b71);
+  width: 100vw;
+  height: 100vh;
+}
+.second_background_h1
+{
+      color: white;
+      font-family: 'Barlow';
+      text-align: center;
+      padding-top: 20vh;
+      letter-spacing: 3px; 
+      top: 18vh;
+      left: 0vw;; 
+}
+
+.img_banner
+{
+  height: 200vh;
+  border: 3px solid red;
+  width: 99.5vw;
+}
+.img_banner_p
+{
+  font-family: barlow;
+  font-weight: 500;
+  font-size: 3vw;
+  width: 99vw;
+  margin: 3vh 0vw;
+  text-align: center;
+}
+.img_banner_sub_p
+{
+  font-family: barlow;
+  font-weight: 400; 
+  font-size: 2vw;
+  text-align: center;
+  color: #598dd2;
+}
+.img_banner_grid
+{
+  height: 50vh;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-top: 6vh;
+}
+.grid_img_1
+{
+  width: 49vw;
+}
+.grid_img_2
+{
+  width: 49vw;
+}
+.grid_img_1_p
+{
+  text-align: center;
+  font-size: larger;
+  font-family: barlow;
+
+}
+.grid_img_1_p1
+{
+  text-align: center;
+  font-size: smaller;
+  font-family: barlow;
+  color: #fc6a04;
+}
